@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // base 设置成你的github仓库名
-  //base: '/Glassily.github.io/docs',
+  //base: '/Glassily.github.io/',
   base: '/docs/',
   //base: '/vitepress-demo1/',
   title: "My Awesome Project",
