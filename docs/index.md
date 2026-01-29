@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Glassily's Website"
   text: "A VitePress Site"
-  tagline: 网站正在建设中
+  tagline: 网站正在建设中...
   actions:
     - theme: brand
       text: Markdown Examples
