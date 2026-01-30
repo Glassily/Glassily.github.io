@@ -1,1 +1,4 @@
-.vitepress\dist
+# VitePress 构建产物与缓存
+**/.vitepress/dist
+**/.vitepress/cache
+node_modules/
