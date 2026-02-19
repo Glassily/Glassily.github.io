@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { generateSidebar } from "vitepress-sidebar"
-import { katex } from '@mdit/plugin-katex'
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
