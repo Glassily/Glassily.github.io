@@ -1,11 +1,15 @@
 import { defineConfig } from 'vitepress'
-import { generateSidebar } from "vitepress-sidebar";
+import { generateSidebar } from "vitepress-sidebar"
+import { katex } from '@mdit/plugin-katex'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Glassily's Website",
   description: "A VitePress Site",
   base: "/",
+  markdown: {
+    math: true
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
@@ -28,7 +32,7 @@ export default defineConfig({
         }
       }
     },
-    
+
     // 配置导航栏
     nav: [
       { text: 'Home', link: '/' },
@@ -50,7 +54,7 @@ export default defineConfig({
       // 排序之后将不是文件夹的放后面
       sortFolderTo: "top",
       // 菜单展开功能
-      collapsed: false,
+      collapsed: true,
     }),
 
     // sidebar: [
@@ -72,7 +76,7 @@ export default defineConfig({
 
     // 右侧大纲配置
     outline: {
-      label: '页面导航', 
+      label: '页面导航',
       level: [2, 3],
     },
 
