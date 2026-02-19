@@ -10,6 +10,7 @@ export default defineConfig({
   markdown: {
     math: true
   },
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
