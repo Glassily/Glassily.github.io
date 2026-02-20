@@ -10,6 +10,12 @@ export default defineConfig({
   markdown: {
     math: true
   },
+  vite: {
+    build: {
+      // 将警告阈值提高
+      chunkSizeWarningLimit: 2000
+    }
+  },
   ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
